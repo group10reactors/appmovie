@@ -1,19 +1,18 @@
 nav {
-    background-color: aqua;
+    background-color: black;
     text-align: center;
     font-size: 30px;
     height: 80px;
-  }
-  
-  nav > a {
+}
+
+nav>a {
     margin: 0;
     padding: 35px 90px;
     color: red;
-  }
-  
-  nav > a.active {
+}
+
+nav>a.active {
     background-color: azure;
     text-decoration: none;
     font-size: 40px;
-  }
-  
+}
