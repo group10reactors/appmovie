@@ -1,7 +1,7 @@
 {
   "name": "react-app",
   "version": "0.1.0",
-  "homepage": "https://ShamsiyyaAlakbarova.github.io/Project",
+  "homepage": "https://github.com/group10reactors/appmovie",
   "private": true,
   "dependencies": {
     "@popperjs/core": "^2.11.6",
