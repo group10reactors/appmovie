@@ -5,7 +5,7 @@ export default function Contact() {
     <label for="email_btn">Email: </label><input type="email" id="email_btn" name="email" />
     <label class="subject" for="subject_btn">Subject: </label><input type="text" id="subject_btn" name="subject"/>
     <label class="content" for="content">Content: </label><textarea name="content" rows="10" class="message_content" placeholder="Enter the message content"></textarea>
-    <input placeholder="send" type="submit"   />
+    <input class="submitcontact" placeholder="send" type="submit"   />
 </form>
 </div>;
   }

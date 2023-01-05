@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Movies from "./components/Movies";
+import MovieInfo from "./components/MovieInfo";
 import Contact from "./components/Contact";
 import PageNotFound from "./components/PageNotFound";
 
