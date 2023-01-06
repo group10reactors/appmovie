@@ -36,7 +36,7 @@ for these projects, you can simply click on them, and you will be redirected to 
 about this project, click on Youtube button below.<br />Our team hopes that you will like it! Enjoy!<br /><br />
 <form action="https://github.com/group10reactors/appmovie">
     <input className="github" type="submit" value="GitHub"/>
-</form><br /><form action="https://www.youtube.com/">
+</form><br /><form action="https://www.youtube.com/watch?v=AFD4x8NmaY4">
     <input className="youtube" type="submit" value="Youtube" />
 </form></p>
     </div>;
