@@ -8,21 +8,25 @@ export default function Home() {
     <th>Team member</th>
     <th>Faculty</th>
     <th>Projects</th>
+    <th>GitHub profile</th>
   </tr>
   <tr>
     <td>Shamsiyya Alakbarova</td>
     <td>IT</td>
-    <td><a href="https://www.youtube.com/">Personal Card</a>, <a href="https://www.youtube.com/">Weather App</a>, <a href ="https://www.youtube.com/">Movie Site</a></td>
+    <td><a href="https://github.com/ShamsiyyaAlakbarova/Web-and-Mobile">Personal Card</a>, <a href="https://github.com/ShamsiyyaAlakbarova/Web-and-Mobile/blob/main/weatherapp.html">Weather App</a>, <a href ="https://github.com/group10reactors/appmovie">Movie Site</a></td>
+    <td><a href='https://github.com/ShamsiyyaAlakbarova'>GitHub</a></td>
   </tr>
   <tr>
     <td>Tural Alizada</td>
     <td>IT</td>
-    <td><a href="https://www.youtube.com/">Personal Card</a>, <a href="https://www.youtube.com/">Weather App</a>, <a href ="https://www.youtube.com/">Movie Site</a></td>
+    <td><a href="alizadeht.github.io">Personal Card</a>, <a href="alizadeht.github.io">Weather App</a>, <a href ="https://github.com/group10reactors/appmovie">Movie Site</a></td>
+    <td><a href='https://github.com/alizadeht'>GitHub</a></td>  
   </tr>
   <tr>
     <td>Azer Shukurlu</td>
     <td>IT</td>
-    <td><a href="https://www.youtube.com/">Personal Card</a>, <a href="https://www.youtube.com/">Weather App</a>, <a href ="https://www.youtube.com/">Movie Site</a></td>
+    <td><a href="https://github.com/azershukurlu">Personal Card</a>, <a href="https://github.com/azershukurlu">Weather App</a>, <a href ="https://github.com/group10reactors/appmovie">Movie Site</a></td>
+    <td><a href='https://github.com/azershukurlu'>GitHub</a></td> 
   </tr>
 </table><br />
 <hr></hr>
@@ -30,11 +34,12 @@ export default function Home() {
 You can see our group info table above. Before this project we had two projects. First was related to HTML and CSS. Second was mainly about Java Script. If you want to see how our team members wrote the codes 
 for these projects, you can simply click on them, and you will be redirected to the GitHub page of the team member.<br /><br />If you would like to see codes of this project, click on GitHub button below. If you would like to watch video
 about this project, click on Youtube button below.<br />Our team hopes that you will like it! Enjoy!<br /><br />
-<form action="https://www.youtube.com/">
-    <input class="github" type="submit" value="GitHub"/>
+<form action="https://github.com/group10reactors/appmovie">
+    <input className='gitinput' type="submit" value="GitHub"/>
 </form><br /><form action="https://www.youtube.com/">
-    <input class="youtube" type="submit" value="Youtube" />
+    <input className='youtubeinput' type="submit" value="Youtube" />
 </form></p>
     </div>;
   }
+  
   
