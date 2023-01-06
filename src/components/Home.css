@@ -26,20 +26,6 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.gitinput {
-    color: white;
-    background-color: black;
-    border-radius: 10px;
-    font-size: 30px;
-}
-
-.youtubeinput {
-    font-size: 30px;
-    color: white;
-    background-color: red;
-    border-radius: 10px;
-}
-
 a {
     text-decoration: none;
     color: black;
