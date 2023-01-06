@@ -1,17 +1,43 @@
-input{
-    display: block;
+.contactpage {
+    text-align: center;
+    display: inline-block;
+    width: 400px;
+    padding: 20px;
+    border: 3px solid black;
+    justify-content: space-evenly;
+    margin-left: 850px;
+    background-color: rgb(98, 98, 126);
+    border-radius: 15px;
+    font-size: 20px;
 }
-.subject, .sub, .email, .mail, .content, .message_content, .subm{
+
+.subm {
+    background-color: red;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.subm:hover {
+    background-color: green;
+}
+
+.subject,
+.sub,
+.email,
+.mail,
+.content,
+.message_content,
+.subm {
     font-size: 30px;
 }
-.message{
+
+.message {
     color: green;
 }
-.message_content{
-    margin-top: 30px;
-}
-.subm{
-    color: white;
-    border-radius: 5px;
-    background-color: green;
+
+.message_content {
+    margin-top: 20px;
 }

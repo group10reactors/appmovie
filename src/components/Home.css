@@ -1,46 +1,68 @@
-h1{
+h1 {
     text-align: center;
 }
+
 table {
     font-family: arial, sans-serif;
     font-size: 30px;
     border-collapse: collapse;
     margin: auto;
-  }
-  
-  td, th {
+}
+
+td,
+th {
     border: 1px solid black;
     text-align: center;
     padding: 8px;
-  }
-  tr:nth-child(even) {
+}
+
+tr:nth-child(even) {
     background-color: #f5f371;
-  }
-  p{
+}
+
+p {
     font-size: 30px;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
- .gitinput{
-    font-size: 30px;
+}
+
+.gitinput {
     color: white;
     background-color: black;
     border-radius: 10px;
-    cursor: pointer;
-    margin-left: 900px;
- }
- .youtubeinput{
+    font-size: 30px;
+}
+
+.youtubeinput {
     font-size: 30px;
     color: white;
     background-color: red;
     border-radius: 10px;
-    cursor: pointer;
-    margin-left: 895px;
- }
- a{
+}
+
+a {
     text-decoration: none;
     color: black;
- }
- a:visited {
+}
+
+a:visited {
     color: rgb(73, 35, 153);
-  }
+}
+
+.youtube {
+    background-color: red;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.github {
+    background-color: #2a2a40;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

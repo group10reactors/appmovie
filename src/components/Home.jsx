@@ -31,9 +31,9 @@ You can see our group info table above. Before this project we had two projects.
 for these projects, you can simply click on them, and you will be redirected to the GitHub page of the team member.<br /><br />If you would like to see codes of this project, click on GitHub button below. If you would like to watch video
 about this project, click on Youtube button below.<br />Our team hopes that you will like it! Enjoy!<br /><br />
 <form action="https://www.youtube.com/">
-    <input type="submit" value="GitHub"/>
+    <input class="github" type="submit" value="GitHub"/>
 </form><br /><form action="https://www.youtube.com/">
-    <input type="submit" value="Youtube" />
+    <input class="youtube" type="submit" value="Youtube" />
 </form></p>
     </div>;
   }
