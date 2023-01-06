@@ -16,8 +16,8 @@ export default function Movies() {
         <div><h1 className='welcome'>Welcome to the Movies page!&#127871;</h1></div>
         {Movies.map((movies) => ( 
         <div className='container'>
-                <img className='movimg' src={movies.Poster_Link} />
-                <NavLink className="actualmovies" to={"/movies/" + movies.id}>
+                <img className='movimg' src={movies.Poster_Link} alt='poster' />
+                <NavLink className="actualmovies" to={"/movies/" + movies.Id}>
                 <h1 className='title'>{movies.Series_Title}</h1>
                 </NavLink>
                 <h2 className='rating'>&#11088;&nbsp;{movies.IMDB_Rating}</h2>

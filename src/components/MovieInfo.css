@@ -1,4 +1,4 @@
-.container {
+.containerinfo {
     text-align: center;
     display: inline-block;
     width: 320px;
@@ -11,6 +11,6 @@
     font-size: 20px;
 }
 
-.overview {
+.overviewinfo {
     font-size: 20px;
 }

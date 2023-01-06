@@ -1,12 +1,17 @@
-.contactpage {
-    text-align: center;
-    display: inline-block;
-    width: 320px;
-    padding: 20px;
-    border: 3px solid black;
-    justify-content: space-evenly;
-    margin: 25px;
-    background-color: rgb(98, 98, 126);
-    border-radius: 15px;
-    font-size: 20px;
+input{
+    display: block;
+}
+.subject, .sub, .email, .mail, .content, .message_content, .subm{
+    font-size: 30px;
+}
+.message{
+    color: green;
+}
+.message_content{
+    margin-top: 30px;
+}
+.subm{
+    color: white;
+    border-radius: 5px;
+    background-color: green;
 }
