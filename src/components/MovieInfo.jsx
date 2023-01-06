@@ -21,10 +21,10 @@ export default function MoviesItem() {
         movies ? (
             <>
             
-                <div className="container">
+                <div className="containerinfo">
                     <img src={movies.Poster_Link} alt="movies_img" />
                     <h4 className="title">{movies.Series_Title}</h4>
-                    <p className="overview">{movies.Overview}</p>
+                    <p className="overviewinfo">{movies.Overview}</p>
                     <h6 className="genre">{movies.Genre}</h6>
                     <h6 className="runtime">{movies.Runtime}</h6>
                     <h6 className="year">{movies.Released_Year}</h6>
@@ -37,7 +37,7 @@ export default function MoviesItem() {
                     <h6 className="stars">{movies.Star3}</h6>
                     <h6 className="stars">{movies.Star4}</h6>
                     <h6 className="votes">{movies.No_of_Votes}</h6>
-                    <h6 className="gross">{movies.Gross + " " + "USD"}</h6>
+                    <h6 className="gross">{movies.Gross + "USD"}</h6>
                 </div>
                 <form action="http://localhost:3000/movies">
                     <input type="submit" value="Back" />
