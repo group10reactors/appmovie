@@ -13,19 +13,19 @@ export default function Home() {
   <tr>
     <td>Shamsiyya Alakbarova</td>
     <td>IT</td>
-    <td><a href="https://github.com/ShamsiyyaAlakbarova/Web-and-Mobile">Personal Card</a>, <a href="https://github.com/ShamsiyyaAlakbarova/Web-and-Mobile/blob/main/weatherapp.html">Weather App</a>, <a href ="https://github.com/group10reactors/appmovie">Movie Site</a></td>
+    <td><a href="https://github.com/ShamsiyyaAlakbarova/Web-and-Mobile">Personal Card</a>, <a href="https://github.com/ShamsiyyaAlakbarova/Web-and-Mobile">Weather App</a>, <a href ="https://github.com/group10reactors/appmovie">Movie Site</a></td>
     <td><a href='https://github.com/ShamsiyyaAlakbarova'>GitHub</a></td>
   </tr>
   <tr>
     <td>Tural Alizada</td>
     <td>IT</td>
-    <td><a href="alizadeht.github.io">Personal Card</a>, <a href="alizadeht.github.io">Weather App</a>, <a href ="https://github.com/group10reactors/appmovie">Movie Site</a></td>
+     <td><a href="https://alizadeht.github.io/assignment%20website.html">Personal Card</a>, <a href="https://alizadeht.github.io/assignment2/index.html">Weather App</a>, <a href ="https://github.com/group10reactors/appmovie">Movie Site</a></td>
     <td><a href='https://github.com/alizadeht'>GitHub</a></td>  
   </tr>
   <tr>
     <td>Azer Shukurlu</td>
     <td>IT</td>
-    <td><a href="https://github.com/azershukurlu">Personal Card</a>, <a href="https://github.com/azershukurlu">Weather App</a>, <a href ="https://github.com/group10reactors/appmovie">Movie Site</a></td>
+    <td><a href="https://azershukurlu.github.io/azer-digital_card/">Personal Card</a>, <a href="https://azershukurlu.github.io/weather-app/">Weather App</a>, <a href ="https://github.com/group10reactors/appmovie">Movie Site</a></td>
     <td><a href='https://github.com/azershukurlu'>GitHub</a></td> 
   </tr>
 </table><br />
@@ -35,9 +35,9 @@ You can see our group info table above. Before this project we had two projects.
 for these projects, you can simply click on them, and you will be redirected to the GitHub page of the team member.<br /><br />If you would like to see codes of this project, click on GitHub button below. If you would like to watch video
 about this project, click on Youtube button below.<br />Our team hopes that you will like it! Enjoy!<br /><br />
 <form action="https://github.com/group10reactors/appmovie">
-    <input className='gitinput' type="submit" value="GitHub"/>
+    <input className="github" type="submit" value="GitHub"/>
 </form><br /><form action="https://www.youtube.com/">
-    <input className='youtubeinput' type="submit" value="Youtube" />
+    <input className="youtube" type="submit" value="Youtube" />
 </form></p>
     </div>;
   }
