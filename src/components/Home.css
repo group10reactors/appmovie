@@ -26,12 +26,16 @@ table {
     color: white;
     background-color: black;
     border-radius: 10px;
+    cursor: pointer;
+    margin-left: 900px;
  }
  .youtubeinput{
     font-size: 30px;
     color: white;
     background-color: red;
     border-radius: 10px;
+    cursor: pointer;
+    margin-left: 895px;
  }
  a{
     text-decoration: none;
