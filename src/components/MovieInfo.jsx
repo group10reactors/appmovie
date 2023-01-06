@@ -40,7 +40,7 @@ export default function MoviesItem() {
                     <h6 className="gross">{movies.Gross + "USD"}</h6>
                 </div>
                 <form action="http://localhost:3000/movies">
-                    <input type="submit" value="Back" />
+                    <input className='back' type="submit" value="Back" />
                 </form>
             </>) : (<div>Loading...</div>)
     );
