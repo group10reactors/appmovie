@@ -24,7 +24,7 @@ export default function MoviesItem() {
                 <div className="containerinfo">
                     <img src={movies.Poster_Link} alt="movies_img" />
                     <h4 className="title">{movies.Series_Title}</h4>
-                    <p className="overviewinfo">{movies.Overview}</p>
+                    <p className="overview">{movies.Overview}</p>
                     <h6 className="genre">{movies.Genre}</h6>
                     <h6 className="runtime">{movies.Runtime}</h6>
                     <h6 className="year">{movies.Released_Year}</h6>
